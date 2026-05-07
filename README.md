@@ -1,3 +1,4 @@
+## My first Copilot exercise
 # Getting Started with GitHub Copilot
 
 _Get started using GitHub Copilot in less than an hour._
