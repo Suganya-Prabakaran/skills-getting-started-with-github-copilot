@@ -132,6 +132,63 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #f0f4ff;
+  border-left: 4px solid #1a237e;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #1a237e;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.participants-list li {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.participants-list span {
+  flex: 1;
+}
+
+.delete-btn {
+  background-color: #c62828;
+  color: white;
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin-left: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #ad1457;
+}
+
 .hidden {
   display: none;
 }
